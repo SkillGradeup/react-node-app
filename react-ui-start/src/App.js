@@ -1,12 +1,8 @@
-// src/App.js
-import "antd/dist/antd.css"
-import React from 'react';
-import FormD from "./components/Form/FormD";
+import "antd/dist/antd.css";
+import AntdMain from "./components/PlayGround/AntdMain";
 function App() {
   return (
-    <div class="container">
-      <FormD/>
-    </div>
+    <AntdMain/>
   );
 }
 
