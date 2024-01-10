@@ -1,0 +1,18 @@
+/* UserPrefColShowHide.css */
+
+.dropdown-container {
+    @apply absolute right-64 p-2 shadow-md border bg-white rounded z-10 min-w-[200px];
+  
+    strong {
+      @apply block;
+    }
+  
+    .checkbox-container {
+      @apply mb-2;
+    }
+  
+    label {
+      @apply ml-2;
+    }
+  }
+  

@@ -1,11 +1,11 @@
 // src/App.js
-import "antd/dist/antd.css"
+import "../node_modules/antd/dist/antd.css"
 import React from 'react';
-import FormD from "./components/Form/FormD";
+import UserPrefColShowHide from "./components/Checkbox/UserPrefColShowHide";
 function App() {
   return (
     <div class="container">
-      <FormD/>
+      <UserPrefColShowHide/>
     </div>
   );
 }
