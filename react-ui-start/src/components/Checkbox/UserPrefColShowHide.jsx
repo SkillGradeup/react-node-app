@@ -56,6 +56,7 @@ const UserPrefColShowHide = () => {
                       checked={selectedOptions.includes(option.id) || option.defaultChecked}
                       onChange={handleCheckboxChange(option.id)}
                     />
+                    
                     <label>{option.label}</label>
                   </div>
                 ))}

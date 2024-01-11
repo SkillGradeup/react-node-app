@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "antd": "^4.21.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.11"
   }
 }
